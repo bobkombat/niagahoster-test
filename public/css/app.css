@@ -1,6 +1,65 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);
 @charset "UTF-8";
 
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/montserrat/Montserrat-Black.otf");
+    font-weight: bolder;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/montserrat/Montserrat-Bold.otf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/montserrat/Montserrat-Hairline.otf");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/montserrat/Montserrat-Light.otf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/montserrat/Montserrat-Regular.otf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/roboto/Roboto-Bold.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/roboto/Roboto-Light.ttf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/roboto/Roboto-Medium.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/roboto/Roboto-Thin.ttf");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/roboto/Roboto-Regular.ttf");
+    font-weight: normal;
+}
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -99,7 +158,8 @@ h6 {
 
 p {
     margin-top: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 0;
+    color: #4c4c4c;
 }
 
 abbr[title],
@@ -589,37 +649,37 @@ pre code {
     margin-left: auto;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 676px) {
     .container-sm,
     .container {
-        max-width: 540px;
+        max-width: 640px;
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 868px) {
     .container-md,
     .container-sm,
     .container {
-        max-width: 720px;
+        max-width: 820px;
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1092px) {
     .container-lg,
     .container-md,
     .container-sm,
     .container {
-        max-width: 960px;
+        max-width: 1060px;
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1300px) {
     .container-xl,
     .container-lg,
     .container-md,
     .container-sm,
     .container {
-        max-width: 1140px;
+        max-width: 1240px;
     }
 }
 
@@ -10773,6 +10833,16 @@ a.text-secondary:focus {
     color: #494f54 !important;
 }
 
+.text-tri {
+    color: #4c4c4c !important;
+}
+
+.header-icon {
+    width: 30px;
+    height: 30px;
+    background-color: #0090ef;
+}
+
 .text-success {
     color: #38c172 !important;
 }
@@ -10968,4 +11038,14 @@ a.text-dark:focus {
         color: inherit;
         border-color: #dee2e6;
     }
+}
+
+.div-nav {
+    height: 80px;
+    overflow: hidden;
+}
+
+.img-nav {
+    width: 220px;
+    margin: -20px 0 0px -3px;
 }

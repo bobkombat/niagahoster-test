@@ -7,13 +7,17 @@
         <title>Niagahoster - Niagaweb</title>
         <link rel="stylesheet" href="{{URL::asset('/css/app.css')}}">
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="Fonts" href="{{URL::asset('/fonts/montserrat/Montserrat-Black.otf')}}">
     </head>
-    <body class="mx-auto flex-row antialiased justify-content-center">
-        <header class="d-flex justify-content-center mx-auto border-bottom">
-            <h1>Hello Worlds</h1>
+    <body class="mx-auto antialiased justify-content-center">
+        <header class="border-bottom">
+            <x-top-header/>
         </header>
-        <h1>Hello Worlds</h1>
+        <nav class="border-bottom">
+            <x-navigation/>
+        </nav>
+        <main>
+        </main>
          <img class="mx-auto"src="{{URL::asset('/images/mockup.png')}}" alt="profile Pic">
     </body>
 </html>
