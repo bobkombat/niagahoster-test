@@ -17,7 +17,34 @@
             <x-navigation/>
         </nav>
         <main>
+            <section class="border-bottom">
+                <x-top-section/>
+            </section>
+            <section>
+                <x-feature-section/>
+            </section>
+            <section>
+                <x-offer-section/>
+            </section>
+            <section>
+
+            </section>
+            <section>
+
+            </section>
+            <section>
+
+            </section>
+            <section>
+
+            </section>
+            <section>
+
+            </section>
         </main>
+        <footer>
+
+        </footer>
          <img class="mx-auto"src="{{URL::asset('/images/mockup.png')}}" alt="profile Pic">
     </body>
 </html>
