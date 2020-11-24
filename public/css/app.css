@@ -128,7 +128,7 @@ section {
 body {
     margin: 0;
     font-family: "Nunito", sans-serif;
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 1.6;
     color: #212529;
@@ -1832,14 +1832,14 @@ pre code {
 }
 
 .table {
-    width: 100%;
+    width: 22rem;
     margin-bottom: 1rem;
     color: #212529;
 }
 
 .table th,
 .table td {
-    padding: 0.75rem;
+    padding: 0.5rem;
     vertical-align: top;
     border-top: 1px solid #dee2e6;
 }
@@ -1864,7 +1864,7 @@ pre code {
 
 .table-bordered th,
 .table-bordered td {
-    border: 1px solid #dee2e6;
+    border: 0px solid #dee2e6;
 }
 
 .table-bordered thead th,
@@ -2756,8 +2756,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
     color: #fff;
-    background-color: #3490dc;
-    border-color: #3490dc;
+    background-color: #008fee;
+    border-color: #008fee;
 }
 
 .btn-primary:hover {
@@ -11056,4 +11056,25 @@ a.text-dark:focus {
 
 .col-feature {
     max-width: 22%;
+}
+
+.col-feature-2 {
+    max-width: 28%;
+}
+
+.divisor {
+    height: 0.3rem;
+    max-width: 10%;
+    background-color: #f1f1f1;
+}
+
+.feature-text {
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+.feature-text-desc {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 1rem;
 }

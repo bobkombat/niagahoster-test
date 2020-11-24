@@ -4,7 +4,7 @@
         <h3 style="font-weight: 300">Diskon 40% + Domain dan SSL Gratis untuk Anda</h2>
     </div>
     <div class="d-flex justify-content-center text-center text-middle mb-5">
-        <div class="border rounded" style="width: 20rem;">
+        <div class="border rounded" style="width: 17rem;">
             <div class="border-bottom">
                 <h3>Bayi</h3>
             </div>
@@ -33,7 +33,7 @@
                 </div>
             </div>
         </div>
-        <div class="border rounded" style="width: 20rem;">
+        <div class="border rounded" style="width: 17rem;">
             <div class="border-bottom">
                 <h3>Bayi</h3>
             </div>
@@ -62,7 +62,7 @@
                 </div>
             </div>
         </div>
-        <div class="border rounded" style="width: 20rem;">
+        <div class="border rounded" style="width: 17rem;">
             <div class="border-bottom">
                 <h3>Bayi</h3>
             </div>
@@ -91,7 +91,7 @@
                 </div>
             </div>
         </div>
-        <div class="border rounded" style="width: 20rem;">
+        <div class="border rounded" style="width: 17rem;">
             <div class="border-bottom">
                 <h3>Bayi</h3>
             </div>

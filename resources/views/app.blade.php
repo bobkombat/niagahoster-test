@@ -6,8 +6,6 @@
 
         <title>Niagahoster - Niagaweb</title>
         <link rel="stylesheet" href="{{URL::asset('/css/app.css')}}">
-        <!-- Fonts -->
-        <link rel="Fonts" href="{{URL::asset('/fonts/montserrat/Montserrat-Black.otf')}}">
     </head>
     <body class="mx-auto antialiased justify-content-center">
         <header class="border-bottom">
@@ -27,23 +25,23 @@
                 <x-offer-section/>
             </section>
             <section>
-
+                <x-feature2-section/>
             </section>
             <section>
-
+                <x-feature3-section/>
             </section>
             <section>
-
+                <x-feature4-section/>
             </section>
-            <section>
-
+            <section class="border-bottom">
+                <x-feature5-section/>
             </section>
             <section>
 
             </section>
         </main>
         <footer>
-
+            <x-footer/>
         </footer>
          <img class="mx-auto"src="{{URL::asset('/images/mockup.png')}}" alt="profile Pic">
     </body>
