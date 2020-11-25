@@ -11090,3 +11090,17 @@ a.text-dark:focus {
 .footer {
     background-color: #303030;
 }
+
+.text-footer {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+.text-footer-head {
+    color: rgb(142, 142, 142);
+}
+
+.text-footer-body {
+    color: #b9b9b9;
+}
