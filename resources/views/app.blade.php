@@ -30,19 +30,24 @@
             <section>
                 <x-feature3-section/>
             </section>
-            <section>
+            <section class="border-bottom mb-5">
                 <x-feature4-section/>
             </section>
-            <section class="border-bottom">
+            <section>
                 <x-feature5-section/>
             </section>
             <section>
-
+                <x-feature6-section/>
+                <div class="like-div-section py-4">
+                    @include('/components/sub-components/second-feature')
+                </div>
+                <div class="contact-us-section py-5">
+                    @include('/components/sub-components/contact-us')
+                </div>
             </section>
         </main>
-        <footer>
+        <footer class="footer py-3">
             <x-footer/>
         </footer>
-         <img class="mx-auto"src="{{URL::asset('/images/mockup.png')}}" alt="profile Pic">
     </body>
 </html>

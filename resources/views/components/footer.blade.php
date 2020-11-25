@@ -1,3 +1,4 @@
-<div>
-    <!-- It is quality rather than quantity that matters. - Lucius Annaeus Seneca -->
+<div class="container mx-auto justify-content-between mt-5 text-tri">
+    <div></div>
+    <div></div>
 </div>

@@ -4,10 +4,10 @@
             <img style="width: 200px;" src="{{URL::asset('/svg/icon PHP Hosting_zendguard.svg')}}" alt="Zend Guard Logo"/>
         </div>
         <div class="col col-feature d-flex justify-content-center">
-            <img style="width: 120px;" src="{{URL::asset('/svg/icon PHP Hosting_composer.svg')}}" alt="Zend Guard Logo"/>     
+            <img style="width: 120px;" src="{{URL::asset('/svg/icon PHP Hosting_composer.svg')}}" alt="Composer Logo"/>     
         </div>
         <div class="col col-feature d-flex justify-content-center">
-            <img style="width: 200px;" src="{{URL::asset('/svg/icon PHP Hosting_ioncube.svg')}}" alt="Zend Guard Logo"/>        
+            <img style="width: 200px;" src="{{URL::asset('/svg/icon PHP Hosting_ioncube.svg')}}" alt="ionCube Logo"/>        
         </div>
     </div>
     <div class="row d-flex justify-content-center">

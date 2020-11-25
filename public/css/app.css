@@ -11078,3 +11078,15 @@ a.text-dark:focus {
     font-weight: 400;
     font-size: 1rem;
 }
+
+.like-div-section {
+    background-color: #f7f7f7;
+}
+
+.contact-us-section {
+    background-color: #00a2f3;
+}
+
+.footer {
+    background-color: #303030;
+}
