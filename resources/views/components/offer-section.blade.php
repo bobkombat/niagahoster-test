@@ -1,6 +1,6 @@
 <div class="container mx-auto my-5 text-tri pt-3" style="font-family: Montserrat;">
     <div class="text-center my-5">
-        <h2 style="font-weight: bold">Paket Hosting Singapura yang Tepat</h2>
+        <h2 class="feature-text">Paket Hosting Singapura yang Tepat</h2>
         <h3 style="font-weight: 300">Diskon 40% + Domain dan SSL Gratis untuk Anda</h2>
     </div>
     <div class="d-flex justify-content-center text-center text-middle mb-5">
@@ -31,7 +31,7 @@
                             <h6>Lorem ipsum</h6>
                         </div>
                         <div class="mt-5 mb-4">
-                            <button type="button" class="btn btn-primary feature-text px-3 rounded-pill" style="font-size: 1rem;">Pilih Sekarang</button>
+                            <button type="button" class="btn btn-primary feature-text px-3 rounded-pill offer-btn">Pilih Sekarang</button>
                         </div>
                     </div>
                 </div>
@@ -61,7 +61,7 @@
                             <h6>Lorem ipsum</h6>
                         </div>
                         <div class="mt-5 mb-4">
-                            <button type="button" class="btn btn-outline-secondary feature-text px-3 rounded-pill" style="font-size: 1rem;">Pilih Sekarang</button>
+                            <button type="button" class="btn btn-outline-secondary feature-text px-3 rounded-pill offer-btn">Pilih Sekarang</button>
                         </div>
                     </div>
                 </div>

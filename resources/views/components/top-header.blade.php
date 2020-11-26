@@ -1,4 +1,4 @@
-<div class="container d-flex justify-content-between" style="font-family: Roboto; font-size: 0.8rem">
+<div class="container d-flex justify-content-between top-header">
     <div class="d-flex">
         <div class="d-flex header-icon justify-content-center align-items-center">
             <svg width="1.2em" height="1.2em" viewBox="0 0 16 16" class="d-flex bi bi-tags-fill text-light" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
