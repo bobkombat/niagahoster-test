@@ -11,9 +11,12 @@ class OfferSection extends Component
      *
      * @return void
      */
-    public function __construct()
+
+    public $services;
+
+    public function __construct($services)
     {
-        //
+        $this->services = $services;
     }
 
     /**

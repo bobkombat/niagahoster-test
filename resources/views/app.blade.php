@@ -22,7 +22,7 @@
                 <x-feature-section/>
             </section>
             <section>
-                <x-offer-section/>
+                <x-offer-section :services="$services"/>
             </section>
             <section>
                 <x-feature2-section/>
